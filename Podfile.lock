@@ -1,0 +1,16 @@
+PODS:
+  - PMAMobileFramework (1.0)
+
+DEPENDENCIES:
+  - PMAMobileFramework (from `../mobileFramework`)
+
+EXTERNAL SOURCES:
+  PMAMobileFramework:
+    :path: "../mobileFramework"
+
+SPEC CHECKSUMS:
+  PMAMobileFramework: 1a28e297ed6af328aa951214277a2fa62a38aebb
+
+PODFILE CHECKSUM: 76f95c38c6b48aec2b09b4076b5b1c16874e5e71
+
+COCOAPODS: 1.5.0
