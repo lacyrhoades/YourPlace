@@ -243,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -n ${SRCROOT}/Source/Secrets.swift.template ${SRCROOT}/Source/Secrets.swift";
+			shellScript = "if [[ ! -e ${SRCROOT}/Source/Secrets.swift ]]; then cp -n ${SRCROOT}/Source/Secrets.swift.template ${SRCROOT}/Source/Secrets.swift; fi";
 		};
 		589800C9B50116B2D535F6D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
